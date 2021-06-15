@@ -1,8 +1,71 @@
+section {
+  padding: 10px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  min-width: 75px;
+  max-width: 125px;
+}
+
+#img-dimitri {
+  min-width: 100px;
+  max-width: 150px;
+}
+
 #img-dimitri, #img-dotnet {
   border-radius: 50%;
 }
 
-img {
+.titulo {
+  font-family: monospace;
+  text-align: center;
+}
+
+.conteudo {
+  background-color: #243447;
+  border-radius: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+.conteudo div, #conteudo-quemsou div {
+  padding: 10px;
+
+  margin: 5px auto 5px auto;
+}
+
+#conteudo-quemsou {
+  background-color: #243447;
+  border-radius: 10px;
+
+  display: flex;
+
+  align-items: center;
+}
+#quemsou-dimitri {
+  width: 20%;
+
+  text-align: center;
+}
+#quemsou-texto {
+  width: 80%;
+}
+
+.conteudo-projeto a p {
+  text-align: center;
+
   min-width: 100px;
   max-width: 150px;
+}
+
+footer {
+  text-align: center;
+  color: grey;
+  font-size: small;
 }
