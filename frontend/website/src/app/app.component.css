@@ -57,9 +57,10 @@ img {
   width: 80%;
 }
 
-.conteudo-projeto a p {
+.conteudo-projeto {
   text-align: center;
-
+}
+.conteudo-projeto a p {
   min-width: 100px;
   max-width: 150px;
 }
